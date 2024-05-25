@@ -7,13 +7,13 @@ How to use:
 
 1) Specify SN in sn.h
    
-2) Open sketch in Arduino IDE
+2) Open sketch sna.ino in Arduino IDE
    
 3) Compile and upload to microcontroller
    
 4) Run in serial monitor mode
    
-5) Check the final marking (and trace)
+5) Check the final marking (and trace steps)
 
 
 Compatibility:
@@ -38,7 +38,16 @@ Additional parameters:
 ----------------------
 
 int y[n] - vector of fireability multiplicity
+
 int dbg - debug level, 0..2
+
+
+Content:
+--------
+
+sna - Arduino sketch sna.ino and example nets sn-add.h and sn-mul.h
+
+ndr - example nets in Tina format to open and run in Tina
 
 
 Remarks:
