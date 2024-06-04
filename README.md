@@ -5,7 +5,7 @@
 Motivation:
 -----------
 
-Using formal methods of embedded system design allows us to implement formal verification of a control system alone and integrated with the plant model that yields reliable embedded systems. Using graphical languages of embedded system design was a success for years with ladder diagrams. 
+Using formal methods of embedded system design allows us to implement formal verification of a control system alone and integrated with the plant model that yields reliable embedded systems. Application graphical languages of embedded system design was a success for years with ladder diagrams. 
 
 An Sleptsov net (SN) is a Turing-complete graphical language able to specify any given concurrent algorith. There is a widerange of formal techniques to verify an SN, both specific and inherited from Petri nets, which an SN generalizes. 
 
