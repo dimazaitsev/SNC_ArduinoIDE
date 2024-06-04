@@ -1,19 +1,32 @@
 ## SNC_ArduinoIDE
 # Sleptsov Net Machine in Arduino IDE
 
+External links:
+---------------
+
+1) Tina to draw, edit, debug, and verify SN programs https://projects.laas.fr/tina/maxsteps.php
+   
+2) NDRtoSN converts Tina NDR format to SN formats https://github.com/dimazaitsev/NDRtoSN
+
+3) For hierarchical design, use compiler-linker of SN https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
+
 
 How to use:
 -----------
 
 1) Specify SN in sn.h
+
+2) Specify pin map in pin.h
    
-2) Open sketch sna.ino in Arduino IDE
+3) Open sketch sna.ino in Arduino IDE
    
-3) Compile and upload to microcontroller
+4) Compile and upload to microcontroller
    
-4) Run in serial monitor mode
+5) Test microcontroller work
    
-5) Check the final marking (and trace steps)
+6) Debug controlling debug info printed on serial interface
+
+Without a pin map file, it is possible just to run an SN on a microcontroller reading results (and trace) on serial interface. 
 
 
 Compatibility:
@@ -52,8 +65,6 @@ ndr - example nets in Tina format to open and run in Tina
 
 Remarks:
 --------
-
-No pin mapping into input/output places of SN provided within this tiny prototype
 
 Conventional matrices and vectors specify SN, no memory/performance optimization provided within this tiny prototype
 
