@@ -10,8 +10,8 @@ Using formal methods of embedded system design allows us to implement formal ver
 An Sleptsov net (SN) is a Turing-complete graphical language able to specify any given concurrent algorith. There is a widerange of formal techniques to verify an SN, both specific and inherited from Petri nets, which an SN generalizes. Please see an enclosed example of robotic plant control with Petri nets. 
 
 
-External links:
----------------
+Links:
+------
 
 
 1) Additional references for `Sleptsov Net Computing`: https://dimazaitsev.github.io/snc.html
