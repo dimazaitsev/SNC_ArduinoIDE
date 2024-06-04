@@ -1,6 +1,13 @@
 ## SNC_ArduinoIDE
 # Sleptsov Net Machine in Arduino IDE
 
+
+Motivation:
+-----------
+
+Using formal methods of embedded system design allows us to implement formal verification of a control system alone and together with the plant model, that yields reliable embedded systems. Using graphical languages of embedded system desigm was a success, for instance with ladder diagrams. A Sleptsov net (SN) is a Turing-complete graphical language capable to specify any given concurrent algorith. There is a widerange of formal techniques to verify an SN both specific and inherited from Petri nets, which an SN generalizes. 
+
+
 External links:
 ---------------
 
@@ -32,21 +39,27 @@ Without a pin map file, it is possible just to run an SN on a microcontroller re
 Vending Machine (VM) example:
 -----------------------------
 
+We use 1 type of coins. VM sells 2 types of chocolate bars - milk and dark. Besides slots for coins, VM has: 2 buttons - chocolate and return; window to collect chocolate bars; window to collect returned coins. Milk cocolate costs 2 coins. Dark chocolate costs 3 coins. VM does not keep more than 3 coins, just returning next one. VM returns coins one by one, one coin at one pressing the return button. VM can be supplied with additional display to indicate its state - the number of coins. 
 
+
+Finite Automaton (FA) machine:
+------------------------------
+
+For folk who are familiar with FA. There is an FA VM example and FA machine for a microcontroller. Compared to FA, SN can control unlimited number of concurrent processes.
 
 
 Content:
 --------
 
-Arduino/sna - Arduino sketch for generic SN machine with sn-vm example
+Arduino/sna - Arduino sketch for generic SN machine with sn-vm example .h files
 
-Arduino/faa - Arduino sketch for generic FA machine with sn-vm example
+Arduino/faa - Arduino sketch for generic FA machine with sn-vm example inside it
 
 fa-vm - FA VM example description
 
 sn-vm - SN VM example description
 
-sn-ex - exra examples of SN
+sn-ex - exra examples of SNs
 
 
 SN specification - h file:
@@ -78,7 +91,7 @@ static int dbg - debug level, 0..2
 Remarks:
 --------
 
-Conventional matrices and vectors specify SN, no memory/performance optimization provided within this tiny prototype
+Conventional matrices and vectors specify SN, no memory/performance optimization provided within this tiny prototype. Controller specific implementation and using optimized data structures and algorithms can comsiderably increase performance and reduce data size. 
 
 
 
@@ -94,4 +107,7 @@ References:
 4. Dmitry A. Zaitsev, Tatiana R. Shmeleva, Qing Zhang, and Hongfei Zhao, Virtual Machine and Integrated Developer Environment for Sleptsov Net Computing Parallel Processing Letters, Vol. 33, No. 03, 2350006 (2023). https://doi.org/10.1142/S0129626423500068
 
 5. TIme petri Net Analyzer, Release 3.8.0, May 05, 2024 (Runs Sleptsov nets). https://projects.laas.fr/tina/download.php
+
+6. Dmitry A. Zaitsev, Introduction to Embedded Systems, teaching module, 2024. https://dimazaitsev.github.io/ar/ies.zip
+
 
