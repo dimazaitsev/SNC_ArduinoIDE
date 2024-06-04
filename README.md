@@ -35,7 +35,9 @@ How to use:
    
 6) Debug controlling debug info printed on serial interface
 
-Without a pin map file, it is possible just to run an SN on a microcontroller reading results (and trace) on serial interface. 
+Files sn.h and pin.h are generated automatically on an SN, drawn in Tina and supplied with additional annotations for the pin map. 
+
+Without a pin map, it is possible just to run an SN on a microcontroller reading results (and trace) on serial interface. 
 
 
 Vending Machine (VM) example:
@@ -47,7 +49,7 @@ We use 1 type of coins. VM sells 2 types of chocolate bars - milk and dark. Besi
 Finite Automaton (FA) machine:
 ------------------------------
 
-For folk who are familiar with FA. There is an FA VM example and FA machine for a microcontroller. Compared to FA, SN can control unlimited number of concurrent processes.
+For folk who are familiar with FA, there is the FA VM example and an FA machine for a microcontroller. Note that an FA controls a sequential process. Compared to FA, SN can control unlimited number of concurrent processes.
 
 
 Content:
