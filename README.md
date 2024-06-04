@@ -29,8 +29,28 @@ How to use:
 Without a pin map file, it is possible just to run an SN on a microcontroller reading results (and trace) on serial interface. 
 
 
-Compatibility:
---------------
+Vending Machine (VM) example:
+-----------------------------
+
+
+
+
+Content:
+--------
+
+Arduino/sna - Arduino sketch for generic SN machine with sn-vm example
+
+Arduino/faa - Arduino sketch for generic FA machine with sn-vm example
+
+fa-vm - FA VM example description
+
+sn-vm - SN VM example description
+
+sn-ex - exra examples of SN
+
+
+SN specification - h file:
+--------------------------
 
 SN is specified as 2 numbers, 3 matrices, 1 vector:
 
@@ -38,35 +58,28 @@ SN is specified as 2 numbers, 3 matrices, 1 vector:
 
 #define n - number of transitions
 
-int b[m][n] - matrix of imcoming arcs of transitions
+static int b[m][n] - matrix of imcoming arcs of transitions
 
-int d[m][n] - matrix of outgoing arcs of transitions
+static int d[m][n] - matrix of outgoing arcs of transitions
 
-int r[n][n] - matrix of priority arcs
+static int r[n][n] - matrix of priority arcs
 
-int mu[m] - vector of initial marking
+static int mu[m] - vector of initial marking
 
 
 Additional parameters:
 ----------------------
 
-int y[n] - vector of fireability multiplicity
+static int y[n] - vector of fireability multiplicity
 
-int dbg - debug level, 0..2
-
-
-Content:
---------
-
-sna - Arduino sketch sna.ino and example nets sn-add.h and sn-mul.h
-
-ndr - example nets in Tina format to open and run in Tina
+static int dbg - debug level, 0..2
 
 
 Remarks:
 --------
 
 Conventional matrices and vectors specify SN, no memory/performance optimization provided within this tiny prototype
+
 
 
 References:
