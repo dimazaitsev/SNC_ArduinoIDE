@@ -15,9 +15,9 @@ External links:
 
 1) `Tina` to draw, edit, debug, and verify SN programs https://projects.laas.fr/tina/maxsteps.php
    
-2) NDRtoSN converts Tina NDR format to SN formats https://github.com/dimazaitsev/NDRtoSN
+2) `NDRtoSN` converts Tina NDR format to SN formats https://github.com/dimazaitsev/NDRtoSN
 
-3) For hierarchical design, use compiler-linker of SN https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
+3) For hierarchical design, use `compiler-linker of SN` https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
 
 
 How to use:
