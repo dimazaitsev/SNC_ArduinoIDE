@@ -9,16 +9,18 @@ Using formal methods of embedded system design allows us to implement formal ver
 
 An Sleptsov net (SN) is a Turing-complete graphical language able to specify any given concurrent algorith. There is a widerange of formal techniques to verify an SN, both specific and inherited from Petri nets, which an SN generalizes. Please see an enclosed example of robotic plant control with Petri nets. 
 
-Additional references for `Sleptsov Net Computing`: https://dimazaitsev.github.io/snc.html
 
 External links:
 ---------------
 
-1) `Tina` to draw, edit, debug, and verify SN programs https://projects.laas.fr/tina/maxsteps.php
-   
-2) `NDRtoSN` converts Tina NDR format to SN formats https://github.com/dimazaitsev/NDRtoSN
 
-3) For hierarchical design, use `compiler-linker of SN` https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
+1) Additional references for `Sleptsov Net Computing`: https://dimazaitsev.github.io/snc.html
+  
+2) `Tina` to draw, edit, debug, and verify SN programs https://projects.laas.fr/tina/maxsteps.php
+   
+3) `NDRtoSN` converts Tina NDR format to SN formats https://github.com/dimazaitsev/NDRtoSN
+
+4) For hierarchical design, use `compiler-linker of SN` https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
 
 
 How to use:
