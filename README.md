@@ -24,6 +24,8 @@ Links:
 
 5) `Arduino IDE` to compile and upload to microcontroller https://www.arduino.cc/en/software
 
+6) Reliable Embedded System Graphical Design in Sleptsov Net Machine https://youtu.be/BG8_UDN7Xvk
+
 
 How to use:
 -----------
