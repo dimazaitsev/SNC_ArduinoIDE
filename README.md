@@ -22,6 +22,8 @@ Links:
 
 4) For hierarchical design, use `compiler-linker of SN` https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
 
+5) `Arduino IDE` to compile and upload to microcontroller https://www.arduino.cc/en/software
+
 
 How to use:
 -----------
