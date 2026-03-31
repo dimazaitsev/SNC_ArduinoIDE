@@ -64,6 +64,8 @@ Content:
 
 Arduino/sna - Arduino sketch for generic SN machine with sn-vm example .h files
 
+Arduino/aswn - Arduino sketch for SWN (Sleptsov-Salwicki rule) machine, benchmark variant (serial output only)
+
 Arduino/faa - Arduino sketch for generic FA machine with sn-vm example inside it
 
 fa-vm - FA VM example description
