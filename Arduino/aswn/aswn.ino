@@ -120,7 +120,7 @@ if(dbg>0) { Serial.print("fires "); Serial.print(jj); Serial.print(" in "); Seri
       } 
 
       if(rollback){
-        for(i=ii;i>0;i--)
+        for(i=ii;i>=0;i--)
           mu[i] = mu[i] + ((b[i][jj]>0)?y[jj]*b[i][jj]:0) - y[jj]*d[i][jj];
 
         break;
