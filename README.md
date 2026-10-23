@@ -111,16 +111,18 @@ Conventional matrices and vectors specify SN, no memory/performance optimization
 References:
 -----------
 
-1. Zaitsev D.A. Sleptsov Nets Run Fast, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2016, Vol. 46, No. 5, 682 - 693. http://dx.doi.org/10.1109/TSMC.2015.2444414
+1. R. Xu, S. Zhang, D. Liu and D. A. Zaitsev, "Sleptsov net based reliable embedded system design on microcontrollers and FPGAs," 2024 IEEE International Conference on Embedded Software and Systems (ICESS), Wuhan, China, 2024, pp. 1-8, https://doi.org/10.1109/ICESS64277.2024.00011.
+  
+3. Zaitsev D.A. Sleptsov Nets Run Fast, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2016, Vol. 46, No. 5, 682 - 693. http://dx.doi.org/10.1109/TSMC.2015.2444414
    
-2. Dmitry A. Zaitsev, Strong Sleptsov nets are Turing complete, Information Sciences, Vol. 621, 2023, 172-182. https://doi.org/10.1016/j.ins.2022.11.098
+4. Dmitry A. Zaitsev, Strong Sleptsov nets are Turing complete, Information Sciences, Vol. 621, 2023, 172-182. https://doi.org/10.1016/j.ins.2022.11.098
 
-3. Bernard Berthomieu, Dmitry A. Zaitsev, Sleptsov Nets are Turing-complete, Theoretical Computer Science, Volume 986, 2024, 114346. https://doi.org/10.1016/j.tcs.2023.114346
+5. Bernard Berthomieu, Dmitry A. Zaitsev, Sleptsov Nets are Turing-complete, Theoretical Computer Science, Volume 986, 2024, 114346. https://doi.org/10.1016/j.tcs.2023.114346
 
-4. Dmitry A. Zaitsev, Tatiana R. Shmeleva, Qing Zhang, and Hongfei Zhao, Virtual Machine and Integrated Developer Environment for Sleptsov Net Computing Parallel Processing Letters, Vol. 33, No. 03, 2350006 (2023). https://doi.org/10.1142/S0129626423500068
+6. Dmitry A. Zaitsev, Tatiana R. Shmeleva, Qing Zhang, and Hongfei Zhao, Virtual Machine and Integrated Developer Environment for Sleptsov Net Computing Parallel Processing Letters, Vol. 33, No. 03, 2350006 (2023). https://doi.org/10.1142/S0129626423500068
 
-5. TIme petri Net Analyzer, Release 3.8.0, May 05, 2024 (Runs Sleptsov nets). https://projects.laas.fr/tina/download.php
+7. TIme petri Net Analyzer, Release 3.8.0, May 05, 2024 (Runs Sleptsov nets). https://projects.laas.fr/tina/download.php
 
-6. Dmitry A. Zaitsev, Introduction to Embedded Systems, teaching module, 2024. https://dimazaitsev.github.io/ar/ies.zip
+8. Dmitry A. Zaitsev, Introduction to Embedded Systems, teaching module, 2024. https://dimazaitsev.github.io/ar/ies.zip
 
 
